@@ -12,7 +12,7 @@ export default function UserProfile() {
   if (isLoading) return <div className="text-black text-center font-semibold">Loading...</div>;
 
   return (
-    <div className="max-w-sm mx-auto p-6 bg-violet-200 rounded-lg border-2 border-slate-700">
+    <div className="max-w-sm mx-auto p-6 bg-rose-200 rounded-lg border-2 border-slate-700">
       <h2 className="text-xl font-bold text-gray-800 mb-4">User Profile</h2>
       <p className="text-gray-700">
         <span className="font-semibold">Name:</span> {data?.name}
